@@ -4,14 +4,14 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Get Hands-On Cybersecurity Work You Can Actually Put on Your Resume
       color: text-dark
       type: TitleBlock
     subtitle: Build resume-ready skills with mentorship and real experience.
     text: >
       This isn’t a course. It’s an internship — designed for you. Build real cybersecurity projects, get mentored by an engineer, and list “Cybersecurity Intern” on your resume with confidence.
     actions:
-      - label: Get started
+      - label: How It Works
         altText: ''
         url: /
         showIcon: false
