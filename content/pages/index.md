@@ -9,9 +9,7 @@ sections:
       type: TitleBlock
     subtitle: Build resume-ready skills with mentorship and real experience.
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      This isn’t a course. It’s an internship — designed for you. Build real cybersecurity projects, get mentored by an engineer, and list “Cybersecurity Intern” on your resume with confidence.
     actions:
       - label: Get started
         altText: ''
@@ -33,7 +31,7 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: Get Hands-On Cybersecurity Work You Can Actually Put on Your Resume
       elementId: ''
       type: ImageBlock
     badge:
