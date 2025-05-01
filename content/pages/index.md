@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Get Hands-On Cybersecurity Work You Can Actually Put on Your Resume
+      text: Real Cybersecurity Work. On Your Resume.
       color: text-dark
       type: TitleBlock
     subtitle: Build resume-ready skills with mentorship and real experience.
