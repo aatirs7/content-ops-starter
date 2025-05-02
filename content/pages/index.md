@@ -11,7 +11,7 @@ sections:
     text: >
       This isn’t a course. It’s an internship — designed for you. Build real cybersecurity projects, get mentored by an engineer, and list “Cybersecurity Intern” on your resume with confidence.
     actions:
-      - label: How It Works
+      - label: Get Started
         altText: ''
         url: /
         showIcon: false
