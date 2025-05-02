@@ -1,14 +1,15 @@
 {
-   "logo": {
+"logo": {
   "url": "/images/logo1transparent.png",
   "altText": "Elysium Cyber",
   "styles": {
     "self": {
       "margin": ["mr-3"],
-      "height": "h-8"
+      "customClass": "max-h-[36px] object-contain"
     }
   },
   "type": "ImageBlock"
+
 },
     "primaryLinks": [
         {
