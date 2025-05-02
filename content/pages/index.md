@@ -51,13 +51,13 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Credible. Listable. Valuable.
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Designed to be listed as an internship or full-time role—depending on where you are in your career.
     items:
       - type: FeaturedItem
         title: 500k
@@ -147,7 +147,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Resume-Ready
       color: text-primary
       styles:
         self:
