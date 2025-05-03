@@ -9,16 +9,17 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is the subtitle for the pricing section
+    subtitle: Choose the right plan for your goals
     plans:
       - title: Starter
         price: "$49 / month"
+        priceStyled: '<span class="text-base font-semibold">$49 / month</span>'
         details: "For beginners looking to gain experience."
         description: >-
           Gain real experience that hiring managers care about. Designed for beginners, this plan gives you project access, core mentorship, and everything you need to start building a cybersecurity resume that stands out.
         features:
           - Hands-on project access
-          - Basic mentorship (group Q&A weekly)
+          - Direct Q&A with your mentor
           - Resume & LinkedIn review
           - Access to one core skill track (e.g., Cloud Security)
         image:
@@ -26,7 +27,7 @@ sections:
           altText: Pricing plan 1
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: Get Started
             url: /
             icon: arrowRight
             iconPosition: right
@@ -35,30 +36,28 @@ sections:
         colors: bg-neutral-fg-dark
         styles:
           self:
-            padding:
-              - pt-6
-              - pb-10
-              - pl-6
-              - pr-6
+            padding: [pt-6, pb-10, pl-6, pr-6]
             borderRadius: large
         type: PricingPlan
 
       - title: Professional
         price: "$99 / month"
-        details: "For intermediate learners who want more guidance."
+        priceStyled: '<span class="text-base font-semibold">$99 / month</span>'
+        details: "For those ready to go deeper."
         description: >-
-          Take your skills further with advanced project access, personal feedback, and expanded learning paths. Ideal for those preparing for junior roles or certifications.
+          Ideal for learners who want more. Includes access to multiple projects, in-depth mentorship, advanced scripting labs, and support in applying to jobs.
         features:
           - All Starter features
-          - 1:1 mentorship session monthly
-          - Access to two skill tracks
-          - Personalized feedback on projects
+          - Access to all skill tracks
+          - Advanced scripting & automation labs
+          - Weekly resume coaching & interview prep
+          - Priority mentor access
         image:
           url: /images/abstract-feature2.svg
           altText: Pricing plan 2
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: Upgrade Now
             url: /
             icon: arrowRight
             iconPosition: right
@@ -67,31 +66,28 @@ sections:
         colors: bg-neutral-fg-dark
         styles:
           self:
-            padding:
-              - pt-6
-              - pb-10
-              - pl-6
-              - pr-6
+            padding: [pt-6, pb-10, pl-6, pr-6]
             borderRadius: large
         type: PricingPlan
 
       - title: Enterprise
         price: Custom
+        priceStyled: '<span class="text-base font-semibold">Custom</span>'
         details: "For institutions and teams."
         description: >-
-          Perfect for universities, bootcamps, and workforce development orgs. Custom projects, reporting, and full onboarding support included.
+          Perfect for bootcamps, schools, or teams looking to offer hands-on experience to groups. Custom onboarding, team portals, and group mentorship available.
         features:
-          - Everything in Professional
-          - Admin dashboard & analytics
-          - Team onboarding support
-          - Custom reporting options
-          - Private group support sessions
+          - All Professional features
+          - Admin dashboard
+          - Team performance tracking
+          - Dedicated account manager
+          - Custom curriculum options
         image:
           url: /images/abstract-feature3.svg
           altText: Pricing plan 3
           type: ImageBlock
         actions:
-          - label: Contact us
+          - label: Contact Sales
             url: /
             icon: arrowRight
             iconPosition: right
@@ -100,11 +96,7 @@ sections:
         colors: bg-neutral-fg-dark
         styles:
           self:
-            padding:
-              - pt-6
-              - pb-10
-              - pl-6
-              - pr-6
+            padding: [pt-6, pb-10, pl-6, pr-6]
             borderRadius: large
         type: PricingPlan
 
@@ -118,9 +110,8 @@ sections:
 
 seo:
   metaTitle: Pricing - Elysium Cyber
-  metaDescription: Explore flexible pricing options to get real cybersecurity experience and build a resume that stands out.
+  metaDescription: Find the right pricing plan for your cybersecurity journey.
   socialImage: /images/main-hero.jpg
   type: Seo
-
 type: PageLayout
 ---
