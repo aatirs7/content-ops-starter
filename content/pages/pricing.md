@@ -11,17 +11,16 @@ sections:
       type: TitleBlock
     subtitle: This is the subtitle for the pricing section
     plans:
-      - title: Developers
-        price: Free
-        details: No credit card required
+      - title: Starter
+        price: **$49 / month**  
+        details: *For beginners looking to gain experience.*
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
-        features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          Gain real experience that hiring managers care about. Designed for beginners, this plan gives you project access, core mentorship, and everything you need to start building a cybersecurity resume that stands out.
+
+- Hands-on project access  
+- Basic mentorship (group Q&A weekly)  
+- Resume & LinkedIn review  
+- Access to one core skill track (e.g., Cloud Security)
         image:
           url: /images/abstract-feature1.svg
           altText: Pricing plan 1
