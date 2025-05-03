@@ -70,18 +70,19 @@ sections:
             borderRadius: large
         type: PricingPlan
 
-      - title: Enterprise
-        price: Custom
-        priceStyled: '<span class="text-base font-semibold">Custom</span>'
-        details: "For institutions and teams."
+      - title: Career Fast Track
+        price: "Custom Pricing"
+        priceStyled: '<span class="text-base font-semibold">Custom Pricing</span>'
+        details: "For those who want job-ready results ASAP."
         description: >-
-          Perfect for bootcamps, schools, or teams looking to offer hands-on experience to groups. Custom onboarding, team portals, and group mentorship available.
+          Designed for individuals who want fast, focused results. This plan gives you full access, weekly one-on-one mentorship, and direct job-seeking support.
+
         features:
-          - All Professional features
-          - Admin dashboard
-          - Team performance tracking
-          - Dedicated account manager
-          - Custom curriculum options
+          - Everything in Pro  
+          - Access all skill tracks  
+          - Weekly 1:1 mentorship  
+          - Resume tailoring & direct job application help  
+          - Mock interviews + referral network support
         image:
           url: /images/abstract-feature3.svg
           altText: Pricing plan 3
