@@ -1,3 +1,4 @@
+
 ---
 title: Pricing
 slug: pricing
@@ -10,17 +11,17 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: This is the subtitle for the pricing section
-     type: PricingPlan
-        - title: Starter
-        price: "$49 / month"
-        details: "For beginners looking to gain experience."
-        description: >
+    plans:
+      - title: Starter
+        price: **$49 / month**  
+        details: *For beginners looking to gain experience.*
+        description: >-
           Gain real experience that hiring managers care about. Designed for beginners, this plan gives you project access, core mentorship, and everything you need to start building a cybersecurity resume that stands out.
-        features:
-          - Hands-on project access
-          - Basic mentorship (group Q&A weekly)
-          - Resume & LinkedIn review
-          - Access to one core skill track (e.g., Cloud Security)
+
+- Hands-on project access  
+- Basic mentorship (group Q&A weekly)  
+- Resume & LinkedIn review  
+- Access to one core skill track (e.g., Cloud Security)
         image:
           url: /images/abstract-feature1.svg
           altText: Pricing plan 1
