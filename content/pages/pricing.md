@@ -10,7 +10,7 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: This is the subtitle for the pricing section
-    plans:
+     type: PricingPlan
         - title: Starter
         price: "$49 / month"
         details: "For beginners looking to gain experience."
