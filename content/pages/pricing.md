@@ -1,4 +1,3 @@
-
 ---
 title: Pricing
 slug: pricing
@@ -13,15 +12,15 @@ sections:
     subtitle: This is the subtitle for the pricing section
     plans:
       - title: Starter
-        price: **$49 / month**  
-        details: *For beginners looking to gain experience.*
+        price: "$49 / month"
+        details: "For beginners looking to gain experience."
         description: >-
           Gain real experience that hiring managers care about. Designed for beginners, this plan gives you project access, core mentorship, and everything you need to start building a cybersecurity resume that stands out.
-
-- Hands-on project access  
-- Basic mentorship (group Q&A weekly)  
-- Resume & LinkedIn review  
-- Access to one core skill track (e.g., Cloud Security)
+        features:
+          - Hands-on project access
+          - Basic mentorship (group Q&A weekly)
+          - Resume & LinkedIn review
+          - Access to one core skill track (e.g., Cloud Security)
         image:
           url: /images/abstract-feature1.svg
           altText: Pricing plan 1
@@ -43,17 +42,17 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
+
       - title: Professional
-        price: $99
-        details: per month
+        price: "$99 / month"
+        details: "For intermediate learners who want more guidance."
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Take your skills further with advanced project access, personal feedback, and expanded learning paths. Ideal for those preparing for junior roles or certifications.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          - All Starter features
+          - 1:1 mentorship session monthly
+          - Access to two skill tracks
+          - Personalized feedback on projects
         image:
           url: /images/abstract-feature2.svg
           altText: Pricing plan 2
@@ -75,18 +74,18 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
+
       - title: Enterprise
         price: Custom
-        details: per month
+        details: "For institutions and teams."
         description: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
+          Perfect for universities, bootcamps, and workforce development orgs. Custom projects, reporting, and full onboarding support included.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
-          - Feature five
+          - Everything in Professional
+          - Admin dashboard & analytics
+          - Team onboarding support
+          - Custom reporting options
+          - Private group support sessions
         image:
           url: /images/abstract-feature3.svg
           altText: Pricing plan 3
@@ -108,6 +107,7 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
+
     colors: bg-light-fg-dark
     styles:
       self:
@@ -115,10 +115,12 @@ sections:
       subtitle:
         textAlign: center
     type: PricingSection
+
 seo:
-  metaTitle: Pricing - Demo site
-  metaDescription: This is the pricing page built with Netlify Create.
+  metaTitle: Pricing - Elysium Cyber
+  metaDescription: Explore flexible pricing options to get real cybersecurity experience and build a resume that stands out.
   socialImage: /images/main-hero.jpg
   type: Seo
+
 type: PageLayout
 ---
