@@ -60,12 +60,11 @@ sections:
     subtitle: Designed to be listed as an internship or full-time role—depending on where you are in your career.
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: Cloud Security
+        subtitle: Get Job-Ready Cloud Skills
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Gain hands-on experience with AWS by securing S3 buckets, managing IAM roles, and spotting misconfigurations.
+          Learn the exact skills companies look for in entry-level cloud security roles.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -88,12 +87,11 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: Security Scripting
+        subtitle: Security Automation Basics
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Build real scripts to automate security tasks using Python and Bash. Learn how to parse logs, flag suspicious activity,
+          and save hours on repetitive work—skills that make your resume stand out.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -113,12 +111,10 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: Compliance & Risk
+        subtitle: Learn Security Standards that Land Jobs
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Get hands-on with real frameworks like NIST, CIS, and SOC 2. Understand what compliance means in practice and how it fits into the daily work of cybersecurity teams.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
