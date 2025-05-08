@@ -26,6 +26,7 @@ sections:
           - pb-20
           - pl-6 md:pl-16
           - pr-6 md:pr-16
+
   - type: GenericSection
     title:
       text: Book Your Free Call
@@ -51,6 +52,7 @@ sections:
           - pb-14
           - pl-6
           - pr-6
+
   - type: FeaturedItemsSection
     title:
       text: What You'll Actually Do
@@ -61,7 +63,7 @@ sections:
       type: TitleBlock
     subtitle: Three simple steps. Real outcomes.
     items:
-      - title: "✅ Step 1: Enroll & Choose Your Track"
+      - title: "Step 1: Enroll & Choose Your Track"
         subtitle: Start Strong
         text: >-
           Get started by picking a skill track and plan that fits your goals.
@@ -81,7 +83,8 @@ sections:
             borderRadius: x-large
             textAlign: left
             alignItems: center
-      - title: "🔧 Step 2: Do Real Security Work"
+
+      - title: "Step 2: Do Real Security Work"
         subtitle: Hands-On Projects
         text: >-
           No simulations. Just hands-on, resume-ready projects.
@@ -102,7 +105,8 @@ sections:
             borderRadius: x-large
             textAlign: left
             alignItems: center
-      - title: "📬 Step 3: List It. Apply. Win."
+
+      - title: "Step 3: List It. Apply. Win."
         subtitle: Get Hired
         text: >-
           We help you package everything for the job market.
@@ -133,6 +137,7 @@ sections:
           - pl-6 md:pl-16
           - pr-6 md:pr-16
         justifyContent: center
+
 seo:
   metaTitle: How It Works | Elysium Cyber
   metaDescription: Learn how Elysium Cyber helps you gain real cybersecurity experience you can list on your resume.
