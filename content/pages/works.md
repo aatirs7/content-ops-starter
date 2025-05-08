@@ -77,9 +77,9 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col
+            flexDirection: col md:row
             borderRadius: x-large
-            textAlign: center
+            textAlign: left
             alignItems: center
       - title: "🔧 Step 2: Do Real Security Work"
         subtitle: Hands-On Projects
@@ -98,9 +98,9 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col
+            flexDirection: col md:row
             borderRadius: x-large
-            textAlign: center
+            textAlign: left
             alignItems: center
       - title: "📬 Step 3: List It. Apply. Win."
         subtitle: Get Hired
@@ -119,9 +119,9 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col
+            flexDirection: col md:row
             borderRadius: x-large
-            textAlign: center
+            textAlign: left
             alignItems: center
     variant: three-col-grid
     colors: bg-neutral-fg-dark
