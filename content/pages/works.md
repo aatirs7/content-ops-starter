@@ -1,6 +1,6 @@
 ---
 title: How It Works
-slug: /how-it-works
+slug: /works
 sections:
   - type: GenericSection
     title:
