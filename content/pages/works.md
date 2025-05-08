@@ -32,7 +32,13 @@ sections:
       text: Book Your Free Call
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textAlign: center
     subtitle: Speak with an engineer. Plan your path.
+    subtitleStyles:
+      self:
+        textAlign: center
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
@@ -41,6 +47,9 @@ sections:
         iconPosition: right
         style: primary
         type: Button
+        styles:
+          self:
+            justifyContent: center
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -52,8 +61,12 @@ sections:
         padding:
           - pt-14
           - pb-14
-          - pl-6
-          - pr-6
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
+        maxWidth:
+          - max-w-screen-md
+        margin:
+          - mx-auto
 
   - type: FeaturedItemsSection
     title:
