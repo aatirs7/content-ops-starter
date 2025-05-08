@@ -22,7 +22,7 @@ sections:
         type: Button
       - label: How it Works
         altText: ''
-        url: /
+        url: /works
         showIcon: true
         icon: arrowRight
         iconPosition: right
