@@ -38,8 +38,8 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Speak with an engineer. Plan your path.
-    subtitleStyles:
+    text: Speak with an engineer. Plan your path.
+    textStyles:
       self:
         textAlign: center
     actions:
@@ -80,8 +80,8 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Three simple steps. Real outcomes.
-    subtitleStyles:
+    text: Three simple steps. Real outcomes.
+    textStyles:
       self:
         textAlign: center
     items:
@@ -149,6 +149,7 @@ sections:
             borderRadius: x-large
             textAlign: left
             alignItems: center
+
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
