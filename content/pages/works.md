@@ -2,6 +2,8 @@
 title: How It Works
 slug: /works
 sections:
+
+  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
   - type: GenericSection
     title:
       text: How It Works
@@ -27,16 +29,19 @@ sections:
           - pl-6 md:pl-16
           - pr-6 md:pr-16
 
+  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
   - type: GenericSection
     title:
       text: Book Your Free Call
       color: text-dark
       type: TitleBlock
-      subtitle: Speak with an engineer. Plan your path.
       styles:
         self:
           textAlign: center
-
+    subtitle: Speak with an engineer. Plan your path.
+    subtitleStyles:
+      self:
+        textAlign: center
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
@@ -48,7 +53,6 @@ sections:
         styles:
           self:
             justifyContent: center
-
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -67,6 +71,7 @@ sections:
         margin:
           - mx-auto
 
+  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
   - type: FeaturedItemsSection
     title:
       text: What You'll Actually Do
@@ -157,5 +162,6 @@ seo:
   metaDescription: Learn how Elysium Cyber helps you gain real cybersecurity experience you can list on your resume.
   socialImage: /images/main-hero.jpg
   type: Seo
+
 type: PageLayout
 ---
