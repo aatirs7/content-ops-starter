@@ -7,13 +7,11 @@ sections:
       text: How It Works
       color: text-dark
       type: TitleBlock
-    subtitle: Our mission and how we deliver real cybersecurity experience.
+    subtitle: Your roadmap to real experience.
     text: >
-      Elysium Cyber was built to solve a real problem: aspiring cybersecurity professionals need experience, but no one will hire without it. Our internship-style model breaks that loop.
+      Elysium Cyber exists to fix a broken loop: you need experience to get hired, but no one hires without it. We offer real cybersecurity work you can list on your resume—with guidance from experienced engineers.
 
-      You’ll work on real projects — like log enrichment, detection rule tuning, and compliance automation — under the guidance of an experienced engineer.
-
-      It’s not a course. It’s real work, real mentorship, and real impact.
+      This isn’t a course. It’s actual experience.
     badge:
       label: Elysium Cyber™
       color: text-primary
@@ -28,6 +26,30 @@ sections:
           - pb-16
           - pl-6 md:pl-16
           - pr-6 md:pr-16
+  - type: GenericSection
+    title:
+      text: Book Your Free Call
+      color: text-dark
+      type: TitleBlock
+    subtitle: Speak with an engineer. Plan your path.
+    actions:
+      - label: Book My Free Call
+        url: https://calendly.com/elysiumcyber/intro
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        textAlign: center
+        justifyContent: center
+        padding:
+          - pt-10
+          - pb-10
+          - pl-6
+          - pr-6
   - type: FeaturedItemsSection
     title:
       text: What You'll Actually Do
@@ -36,15 +58,16 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Real projects. Resume-ready experience.
+    subtitle: Three simple steps. Real outcomes.
     items:
-      - title: Threat Detection & Response
-        subtitle: Hands-On With Tools Like Elastic & XSOAR
+      - title: "✅ Step 1: Enroll & Choose Your Track"
+        subtitle: Start Strong
         text: >-
-          Build detection rules, enrich logs with threat intel, and set up automated responses. This is the work companies pay for — and now it’ll be on your resume.
+          Get started by picking a skill track and plan that fits your goals.
+          Whether you’re a beginner or career switcher, we’ll help you select a focus area—like Cloud Security or Compliance—and match you with the right resources and mentorship.
         image:
-          url: /images/icon-detection.svg
-          altText: Detection icon
+          url: /images/icon1.svg
+          altText: Enrollment icon
           type: ImageBlock
         styles:
           self:
@@ -55,13 +78,15 @@ sections:
               - pr-6 md:pr-8
             flexDirection: col md:row
             borderRadius: x-large
-      - title: Security Scripting
-        subtitle: Automate the Boring Stuff
+      - title: "🔧 Step 2: Do Real Security Work"
+        subtitle: Hands-On Projects
         text: >-
-          Use Python and Bash to parse logs, flag anomalies, and streamline workflows. The kind of work that saves teams hours and gets your name remembered.
+          No simulations. Just hands-on, resume-ready projects.
+          You’ll write scripts, investigate threats, build detections, and apply security standards—all guided by a structured roadmap.
+          You’ll get feedback, support, and real deliverables to showcase.
         image:
-          url: /images/icon-scripting.svg
-          altText: Scripting icon
+          url: /images/icon2.svg
+          altText: Work icon
           type: ImageBlock
         styles:
           self:
@@ -72,13 +97,15 @@ sections:
               - pr-6 md:pr-8
             flexDirection: col md:row
             borderRadius: x-large
-      - title: Compliance & Risk
-        subtitle: Learn the Frameworks That Matter
+      - title: "📬 Step 3: List It. Apply. Win."
+        subtitle: Get Hired
         text: >-
-          Dive into NIST, SOC 2, and CIS. You’ll get practical experience building control mappings and integrating standards into actual workflows.
+          We help you package everything for the job market.
+          We’ll tailor your resume, optimize your LinkedIn, and guide you in how to talk about your experience in interviews.
+          You can list this as an internship or full-time experience—whichever fits your path.
         image:
-          url: /images/icon-compliance.svg
-          altText: Compliance icon
+          url: /images/icon3.svg
+          altText: Apply icon
           type: ImageBlock
         styles:
           self:
