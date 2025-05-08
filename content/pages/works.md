@@ -44,9 +44,11 @@ sections:
     colors: bg-neutral-fg-dark
     styles:
       self:
-        textAlign: center
+        display: flex
+        flexDirection: col
         justifyContent: center
         alignItems: center
+        textAlign: center
         padding:
           - pt-14
           - pb-14
