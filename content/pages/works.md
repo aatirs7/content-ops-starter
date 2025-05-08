@@ -38,8 +38,8 @@ sections:
       styles:
         self:
           textAlign: center
-    text: Speak with an engineer. Plan your path.
-    textStyles:
+    subtitle: Speak with an engineer. Plan your path.
+    subtitleStyles:
       self:
         textAlign: center
     actions:
@@ -80,8 +80,8 @@ sections:
       styles:
         self:
           textAlign: center
-    text: Three simple steps. Real outcomes.
-    textStyles:
+    subtitle: Three simple steps. Real outcomes.
+    subtitleStyles:
       self:
         textAlign: center
     items:
@@ -154,12 +154,13 @@ sections:
     colors: bg-neutral-fg-dark
     styles:
       self:
+        textAlign: center
+        alignItems: center
         padding:
           - pt-20
           - pb-20
           - pl-6 md:pl-16
           - pr-6 md:pr-16
-        justifyContent: center
 
 seo:
   metaTitle: How It Works | Elysium Cyber
