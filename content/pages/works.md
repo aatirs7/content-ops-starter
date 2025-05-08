@@ -3,7 +3,7 @@ title: How It Works
 slug: /works
 sections:
 
-  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+  # 1) How It Works
   - type: GenericSection
     title:
       text: How It Works
@@ -29,7 +29,7 @@ sections:
           - pl-6 md:pl-16
           - pr-6 md:pr-16
 
-  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+  # 2) Book Your Free Call
   - type: GenericSection
     title:
       text: Book Your Free Call
@@ -71,16 +71,19 @@ sections:
         margin:
           - mx-auto
 
-  #––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+  # 3) What You’ll Actually Do
   - type: FeaturedItemsSection
     title:
       text: What You'll Actually Do
       color: text-dark
+      type: TitleBlock
       styles:
         self:
           textAlign: center
-      type: TitleBlock
     subtitle: Three simple steps. Real outcomes.
+    subtitleStyles:
+      self:
+        textAlign: center
     items:
       - title: "Step 1: Enroll & Choose Your Track"
         subtitle: Start Strong
