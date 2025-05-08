@@ -22,8 +22,8 @@ sections:
         flexDirection: col md:row
         alignItems: center
         padding:
-          - pt-16
-          - pb-16
+          - pt-20
+          - pb-20
           - pl-6 md:pl-16
           - pr-6 md:pr-16
   - type: GenericSection
@@ -45,9 +45,10 @@ sections:
       self:
         textAlign: center
         justifyContent: center
+        alignItems: center
         padding:
-          - pt-10
-          - pb-10
+          - pt-14
+          - pb-14
           - pl-6
           - pr-6
   - type: FeaturedItemsSection
@@ -72,12 +73,14 @@ sections:
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6 md:pl-8
-              - pb-6
-              - pr-6 md:pr-8
-            flexDirection: col md:row
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            flexDirection: col
             borderRadius: x-large
+            textAlign: center
+            alignItems: center
       - title: "🔧 Step 2: Do Real Security Work"
         subtitle: Hands-On Projects
         text: >-
@@ -91,12 +94,14 @@ sections:
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6 md:pl-8
-              - pb-6
-              - pr-6 md:pr-8
-            flexDirection: col md:row
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            flexDirection: col
             borderRadius: x-large
+            textAlign: center
+            alignItems: center
       - title: "📬 Step 3: List It. Apply. Win."
         subtitle: Get Hired
         text: >-
@@ -110,21 +115,24 @@ sections:
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6 md:pl-8
-              - pb-6
-              - pr-6 md:pr-8
-            flexDirection: col md:row
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            flexDirection: col
             borderRadius: x-large
+            textAlign: center
+            alignItems: center
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-16
-          - pb-16
+          - pt-20
+          - pb-20
           - pl-6 md:pl-16
           - pr-6 md:pr-16
+        justifyContent: center
 seo:
   metaTitle: How It Works | Elysium Cyber
   metaDescription: Learn how Elysium Cyber helps you gain real cybersecurity experience you can list on your resume.
