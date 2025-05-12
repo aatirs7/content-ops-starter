@@ -4,13 +4,13 @@
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "The bridge between ambition and opportunity.",
     "primaryLinks": {
         "title": "Product",
         "links": [
             {
-                "label": "Features",
-                "altText": "Features page",
+                "label": "How it Works",
+                "altText": "How it Works Page",
                 "url": "/",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -60,12 +60,7 @@
         "type": "FooterLinksGroup"
     },
     "socialLinks": [
-        {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
+      
         {
             "altText": "Twitter link",
             "url": "https://twitter.com/netlify",
