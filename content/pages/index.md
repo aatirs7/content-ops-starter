@@ -7,7 +7,13 @@ sections:
       text: Real Cybersecurity Work. On Your Resume.
       color: text-dark
       type: TitleBlock
+      className: text-4xl md:text-5xl font-bold
     subtitle: Build resume-ready skills with mentorship and real experience.
+    subtitleStyles:
+      self:
+        margin:
+          top: 4
+          bottom: 6
     text: >
       This isn’t a course. It’s an internship — designed for you. Build real cybersecurity projects, get mentored by an engineer, and list “Cybersecurity Intern” on your resume with confidence.
     actions:
@@ -41,6 +47,11 @@ sections:
     elementId: ''
     colors: bg-light-fg-dark
     styles:
+      text:
+        color: text-gray-700
+        fontSize: large
+        margin:
+          top: 0
       self:
         alignItems: center
         flexDirection: col md:row
@@ -67,7 +78,8 @@ sections:
           Learn the exact skills companies look for in entry-level cloud security roles.
         actions: []
         elementId: null
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
+        className: shadow-md hover:shadow-lg transition
         styles:
           self:
             padding:
@@ -75,7 +87,7 @@ sections:
               - pl-6 md:pl-8
               - pb-8
               - pr-6 md:pr-8
-            borderRadius: x-large
+            borderRadius: large
             flexDirection: col md:row
             justifyContent: center
             textAlign: left
@@ -98,7 +110,8 @@ sections:
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
+        className: shadow-md hover:shadow-lg transition
         styles:
           self:
             padding:
@@ -106,7 +119,7 @@ sections:
               - pl-6 md:pl-8
               - pb-8
               - pr-6 md:pr-8
-            borderRadius: x-large
+            borderRadius: large
             flexDirection: col md:row
             textAlign: left
             justifyContent: center
@@ -121,7 +134,8 @@ sections:
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
+        className: shadow-md hover:shadow-lg transition
         styles:
           self:
             padding:
@@ -129,7 +143,7 @@ sections:
               - pl-6 md:pl-8
               - pb-8
               - pr-6 md:pr-8
-            borderRadius: x-large
+            borderRadius: large
             flexDirection: col md:row
         type: FeaturedItem
     actions:
@@ -162,9 +176,57 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-seo:
-  metaTitle: Elysium Cyber
-  metaDescription: 
+  - type: GenericSection
+    title:
+      text: Not sure where to start?
+      color: text-dark
+      type: TitleBlock
+      styles:
+        self:
+          textAlign: center
+          fontSize: xxx-large
+          fontWeight: 700
+          margin:
+            bottom: 8
+    subtitle: Talk to an engineer. Plan your path.
+    subtitleStyles:
+      self:
+        textAlign: center
+        color: text-gray-700
+        margin:
+          bottom: 24
+    actions:
+      - label: Book My Free Call
+        url: https://calendly.com/elysiumcyber/intro
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        className: "bg-black text-white px-6 py-3 rounded-md hover:shadow-lg transition mx-auto block w-fit"
+        style: primary
+        type: Button
+        styles:
+          self:
+            justifyContent: center
+    colors: bg-gray-50 text-dark
+    styles:
+      self:
+        display: flex
+        flexDirection: col
+        justifyContent: center
+        alignItems: center
+        textAlign: center
+        padding:
+          - pt-14
+          - pb-14
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
+        maxWidth:
+          - max-w-screen-md
+        margin:
+          - mx-auto
+  seo:
+    metaTitle: Elysium Cyber
+  metaDescription: Elysium Cyber gives you hands-on cybersecurity experience with mentorship and real projects—so you can finally list something real on your resume.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
