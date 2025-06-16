@@ -60,17 +60,17 @@ sections:
           textAlign: center
     subtitle: Talk to an engineer. Plan your path.
     actions:
-        - label: Book My Free Call
-          url: https://calendly.com/elysiumcyber/intro
-          showIcon: true
-          icon: arrowRight
-          iconPosition: right
-          style: primary
-          type: Button
-          className: hover:bg-black hover:text-white
-          styles:
-            self:
-              justifyContent: center
+      - label: Book My Free Call
+        url: https://calendly.com/elysiumcyber/intro
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+        className: hover:bg-black hover:text-white
+        styles:
+          self:
+            justifyContent: center
     colors: bg-gray-50 text-dark
     styles:
       subtitle:
