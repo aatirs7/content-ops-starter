@@ -49,6 +49,7 @@ sections:
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
+
   - type: GenericSection
     title:
       text: Not sure where to start?
@@ -57,10 +58,14 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle:                     Talk to an engineer. Plan your path.
-    subtitleStyles:
-      self:
-        textAlign: center
+    blocks:
+      - type: TextBlock
+        text: Talk to an engineer. Plan your path.
+        styles:
+          self:
+            textAlign: center
+            margin:
+              - mt-4
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
@@ -89,6 +94,7 @@ sections:
           - max-w-screen-md
         margin:
           - mx-auto
+
   - type: FeaturedItemsSection
     title:
       text: Credible. Listable. Valuable.
@@ -202,46 +208,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - type: GenericSection
-    title:
-      text: Not sure where to start?
-      color: text-dark
-      type: TitleBlock
-      styles:
-        self:
-          textAlign: center
-    subtitle: Talk to an engineer. Plan your path.
-    subtitleStyles:
-      self:
-        textAlign: center
-    actions:
-      - label: Book My Free Call
-        url: https://calendly.com/elysiumcyber/intro
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Button
-        styles:
-          self:
-            justifyContent: center
-    colors: bg-gray-50 text-dark
-    styles:
-      self:
-        display: flex
-        flexDirection: col
-        justifyContent: center
-        alignItems: center
-        textAlign: center
-        padding:
-          - pt-14
-          - pb-14
-          - pl-6 md:pl-16
-          - pr-6 md:pr-16
-        maxWidth:
-          - max-w-screen-md
-        margin:
-          - mx-auto
 seo:
   metaTitle: Elysium Cyber
   metaDescription: 
