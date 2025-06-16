@@ -49,6 +49,54 @@ sections:
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
+  - type: GenericSection
+    title:
+      text: Not sure where to start?
+      color: text-dark
+      type: TitleBlock
+      styles:
+        self:
+          textAlign: center
+          fontSize: xxx-large
+          fontWeight: 700
+          margin:
+            bottom: 8
+    subtitle: Talk to an engineer. Plan your path.
+    subtitleStyles:
+      self:
+        textAlign: center
+        color: text-gray-700
+        margin:
+          bottom: 24
+    actions:
+      - label: Book My Free Call
+        url: https://calendly.com/elysiumcyber/intro
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        className: "bg-black text-white px-6 py-3 rounded-md hover:shadow-lg transition mx-auto block w-fit"
+        style: primary
+        type: Button
+        styles:
+          self:
+            justifyContent: center
+    colors: bg-gray-50 text-dark
+    styles:
+      self:
+        display: flex
+        flexDirection: col
+        justifyContent: center
+        alignItems: center
+        textAlign: center
+        padding:
+          - pt-14
+          - pb-14
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
+        maxWidth:
+          - max-w-screen-md
+        margin:
+          - mx-auto
   - type: FeaturedItemsSection
     title:
       text: Credible. Listable. Valuable.
