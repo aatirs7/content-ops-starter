@@ -61,7 +61,7 @@ sections:
     subtitle: Talk to an engineer. Plan your path.
     actions:
       - label: Book My Free Call
-        url: https://calendly.com/elysiumcyber/intro
+        url: https://calendly.com/elysiumventuresgroup/30min
         showIcon: true
         icon: arrowRight
         iconPosition: right
