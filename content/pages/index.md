@@ -57,7 +57,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Talk to an engineer. Plan your path.
+    subtitle:                     Talk to an engineer. Plan your path.
     subtitleStyles:
       self:
         textAlign: center
