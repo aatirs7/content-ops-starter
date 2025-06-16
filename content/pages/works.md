@@ -41,7 +41,7 @@ sections:
     subtitle: Speak with an engineer. Plan your path.
     actions:
       - label: Book My Free Call
-        url: https://calendly.com/elysiumcyber/intro
+        url: https://calendly.com/elysiumventuresgroup/30min
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -146,22 +146,20 @@ sections:
             textAlign: center
             alignItems: center
 
-
-      variant: three-col-grid
-      colors: bg-neutral-fg-dark
-      styles:
-        subtitle:
-          textAlign: center
-        self:
-          textAlign: center
-          alignItems: center
-          justifyContent: center
-          padding:
-            - pt-20
-            - pb-20
-            - pl-6 md:pl-16
-            - pr-6 md:pr-16
-
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      subtitle:
+        textAlign: center
+      self:
+        textAlign: center
+        alignItems: center
+        justifyContent: center
+        padding:
+          - pt-20
+          - pb-20
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
 
 seo:
   metaTitle: How It Works | Elysium Cyber
