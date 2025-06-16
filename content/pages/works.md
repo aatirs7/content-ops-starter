@@ -97,9 +97,9 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col md:row
+            flexDirection: col
             borderRadius: x-large
-            textAlign: left
+            textAlign: center
             alignItems: center
 
       - title: "Step 2: Do Real Security Work"
@@ -119,9 +119,9 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col md:row
+            flexDirection: col
             borderRadius: x-large
-            textAlign: left
+            textAlign: center
             alignItems: center
 
       - title: "Step 3: List It. Apply. Win."
@@ -141,24 +141,27 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            flexDirection: col md:row
+            flexDirection: col
             borderRadius: x-large
-            textAlign: left
+            textAlign: center
             alignItems: center
 
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      subtitle:
-        textAlign: center
-      self:
-        textAlign: center
-        alignItems: center
-        padding:
-          - pt-20
-          - pb-20
-          - pl-6 md:pl-16
-          - pr-6 md:pr-16
+
+      variant: three-col-grid
+      colors: bg-neutral-fg-dark
+      styles:
+        subtitle:
+          textAlign: center
+        self:
+          textAlign: center
+          alignItems: center
+          justifyContent: center
+          padding:
+            - pt-20
+            - pb-20
+            - pl-6 md:pl-16
+            - pr-6 md:pr-16
+
 
 seo:
   metaTitle: How It Works | Elysium Cyber
