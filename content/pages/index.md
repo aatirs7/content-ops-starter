@@ -59,12 +59,12 @@ sections:
         self:
           textAlign: center
     subtitle: Talk to an engineer. Plan your path.
-    subtitleStyles:
-      self:
-        textAlign: center
-        margin:
-          - mt-4
-        width: 100%
+styles:
+  subtitle:
+    textAlign: center
+    margin:
+      - mt-4
+
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
