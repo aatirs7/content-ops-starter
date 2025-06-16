@@ -49,6 +49,7 @@ sections:
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
+
   - type: GenericSection
     title:
       text: Not sure where to start?
@@ -70,7 +71,7 @@ sections:
           bottom: 24
     actions:
       - label: Book My Free Call
-        url: https://calendly.com/elysiumcyber/intro
+        url: https://calendly.com/elysiumventuresgroup/30min
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -97,6 +98,7 @@ sections:
           - max-w-screen-md
         margin:
           - mx-auto
+
   - type: FeaturedItemsSection
     title:
       text: Credible. Listable. Valuable.
