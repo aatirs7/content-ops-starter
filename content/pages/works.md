@@ -39,9 +39,6 @@ sections:
         self:
           textAlign: center
     subtitle: Speak with an engineer. Plan your path.
-    subtitleStyles:
-      self:
-        textAlign: center
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
@@ -55,6 +52,8 @@ sections:
             justifyContent: center
     colors: bg-neutral-fg-dark
     styles:
+      subtitle:
+        textAlign: center
       self:
         display: flex
         flexDirection: col
@@ -81,9 +80,6 @@ sections:
         self:
           textAlign: center
     subtitle: Three simple steps. Real outcomes.
-    subtitleStyles:
-      self:
-        textAlign: center
     items:
       - title: "Step 1: Enroll & Choose Your Track"
         subtitle: Start Strong
@@ -153,6 +149,8 @@ sections:
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
+      subtitle:
+        textAlign: center
       self:
         textAlign: center
         alignItems: center
