@@ -146,6 +146,7 @@ sections:
             textAlign: center
             alignItems: center
 
+
       variant: three-col-grid
       colors: bg-neutral-fg-dark
       styles:
@@ -160,6 +161,7 @@ sections:
             - pb-20
             - pl-6 md:pl-16
             - pr-6 md:pr-16
+
 
 seo:
   metaTitle: How It Works | Elysium Cyber
