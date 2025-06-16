@@ -50,7 +50,7 @@ sections:
           - pb-16
           - pr-6 md:pr-16
 
-   - type: GenericSection
+  - type: GenericSection
     title:
       text: Not sure where to start?
       color: text-dark
@@ -65,34 +65,6 @@ sections:
         margin:
           - mt-4
         width: 100%
-    actions:
-      - label: Book My Free Call
-        url: https://calendly.com/elysiumcyber/intro
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Button
-        styles:
-          self:
-            justifyContent: center
-    colors: bg-gray-50 text-dark
-    styles:
-      self:
-        display: flex
-        flexDirection: col
-        justifyContent: center
-        alignItems: center
-        textAlign: center
-        padding:
-          - pt-14
-          - pb-14
-          - pl-6 md:pl-16
-          - pr-6 md:pr-16
-        maxWidth:
-          - max-w-screen-md
-        margin:
-          - mx-auto
     actions:
       - label: Book My Free Call
         url: https://calendly.com/elysiumcyber/intro
@@ -169,76 +141,3 @@ sections:
           url: /images/icon2.svg
           altText: Featured icon two
           elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-6 md:pl-8
-              - pb-8
-              - pr-6 md:pr-8
-            borderRadius: x-large
-            flexDirection: col md:row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: Compliance & Risk
-        subtitle: Learn Security Standards that Land Jobs
-        text: >-
-          Get hands-on with real frameworks like NIST, CIS, and SOC 2. Understand what compliance means in practice and how it fits into the daily work of cybersecurity teams.
-        image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-6 md:pl-8
-              - pb-8
-              - pr-6 md:pr-8
-            borderRadius: x-large
-            flexDirection: col md:row
-        type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: Resume-Ready
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pb-16
-          - pt-16
-          - pl-6 md:pl-16
-          - pr-6 md:pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
-seo:
-  metaTitle: Elysium Cyber
-  metaDescription: 
-  socialImage: /images/main-hero.jpg
-  type: Seo
-type: PageLayout
----
