@@ -19,9 +19,9 @@
             "type": "Link"
         },
         {
-            "label": "Blog",
-            "altText": "Blog",
-            "url": "/blog",
+            "label": "Skill Tracks",
+            "altText": "Skill Tracks page",
+            "url": "/skill-tracks",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
