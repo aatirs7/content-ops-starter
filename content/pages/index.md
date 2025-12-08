@@ -375,7 +375,7 @@ sections:
 
 seo:
   metaTitle: Elysium Cyber — Consulting & On-Demand Engineering
-  metaDescription: Boutique cybersecurity firm providing consulting, project delivery, and on-demand engineers for detection engineering, SOAR, cloud security, and compliance.
+  metaDescription: Boutique cybersecurity consulting firm offering detection engineering, SOAR automation, cloud security, compliance documentation, and on-demand security engineers for enterprises.
   socialImage: /images/main-hero.jpg
   type: Seo
 
