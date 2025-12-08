@@ -1,4 +1,4 @@
-﻿---
+---
 title: Home
 slug: /
 sections:
@@ -35,7 +35,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: Elysium Ventures
+      label: Elysium Ventures™
       color: text-primary
       type: Badge
     elementId: ''
