@@ -1,94 +1,66 @@
 {
-"logo": {
-  "url": "/images/logo-dark.svg",
-  "altText": "Logo dark",
-  "styles": {
-    "self": {
-      "margin": ["mr-3"]
-    }
+  "logo": {
+    "url": "/images/logo-dark.svg",
+    "altText": "Logo dark",
+    "styles": {
+      "self": {
+        "margin": ["mr-3"]
+      }
+    },
+    "type": "ImageBlock"
   },
-  "type": "ImageBlock"
-},
-    "primaryLinks": [
-        {
-            "label": "Pricing",
-            "url": "/pricing",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Skill Tracks",
-            "altText": "Skill Tracks page",
-            "url": "/skill-tracks",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Careers",
-            "altText": "Careers page",
-            "url": "/careers",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Dropdown",
-            "altText": "Dropdown",
-            "links": [
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                }
-            ],
-            "labelStyle": "secondary",
-            "type": "SubNav"
-        }
-    ],
-    "secondaryLinks": [
-        {
-            "label": "Sign up",
-            "altText": "Sign up",
-            "url": "https://app.netlify.com/signup",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Button"
-        },
-        {
-            "label": "Log in",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Button"
-        }
-    ],
-    "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-light-fg-dark",
-    "type": "Header"
+
+  "primaryLinks": [
+    {
+      "label": "Services",
+      "altText": "Services page",
+      "url": "/services",
+      "style": "secondary",
+      "type": "Link"
+    },
+    {
+      "label": "Work",
+      "altText": "Previous work and case studies",
+      "url": "/work",
+      "style": "secondary",
+      "type": "Link"
+    },
+    {
+      "label": "About",
+      "altText": "About Elysium Cyber",
+      "url": "/about",
+      "style": "secondary",
+      "type": "Link"
+    },
+    {
+      "label": "Careers",
+      "altText": "Careers at Elysium Cyber",
+      "url": "/careers",
+      "style": "secondary",
+      "type": "Link"
+    },
+    {
+      "label": "Contact",
+      "altText": "Contact Elysium Cyber",
+      "url": "/contact",
+      "style": "secondary",
+      "type": "Link"
+    }
+  ],
+
+  "secondaryLinks": [
+    {
+      "label": "Book a Call",
+      "altText": "Schedule a consultation",
+      "url": "https://calendly.com/elysiumventuresgroup/30min",
+      "icon": "arrowRight",
+      "iconPosition": "right",
+      "style": "primary",
+      "type": "Button"
+    }
+  ],
+
+  "variant": "logo-left-primary-nav-centered",
+  "colors": "bg-light-fg-dark",
+  "type": "Header"
 }
