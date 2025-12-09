@@ -32,73 +32,68 @@ sections:
     colors: bg-light-fg-dark
     styles:
       self:
-        alignItems: center
-        flexDirection: col md:row
-        padding:
-          - pt-24
-          - pl-6 md:pl-20
-          - pb-24
-          - pr-6 md:pr-20
-        justifyContent: center
-
-  # WHAT WE DO — Two-column services
-  - type: FeaturedItemsSection
-    title:
-      text: What We Do
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: We support security teams through consulting engagements and on-demand engineering capacity.
-    variant: two-col-grid
-    items:
-      - type: FeaturedItem
-        title: Consulting & Project Delivery
-        subtitle: Results-driven, scoped engagements.
-        text: >-
-          • Detection engineering (cloud, identity, endpoint)
+        - type: FeaturedItemsSection
+          title:
+            text: What We Do
+            color: text-dark
+            styles:
+              self:
+                textAlign: left
+              type: TitleBlock
+          subtitle: We support security teams through both consulting engagements and on-demand engineering capacity.
+          variant: two-col-grid
+          items:
+            - type: FeaturedItem
+              title: Consulting & Project Delivery
+              subtitle: Federal-focused engagements and compliance deliverables
+              text: >-
+                • Compliance documentation & RMF package development (SSP, SAR, POA&M, architecture/boundary diagrams)
           
-          • SIEM onboarding, correlation, enrichment
-
-          • SOAR playbook design & automation
-
-          • Cloud security reviews (AWS/Azure)
-
-          • Compliance documentation (NIST 800-53, FedRAMP)
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pb-8, pl-8 md:pl-10, pr-8 md:pr-10]
-            borderRadius: x-large
-
-      - type: FeaturedItem
-        title: On-Demand Engineering
-        subtitle: Staff augmentation & engineer-as-a-service.
-        text: >-
-          Add experienced engineers to your team, fast.
-
-          • Detection Engineer
-
-          • SIEM Engineer (Elastic, Splunk)
-
-          • SOC Automation Engineer
-
-          • Cloud Security Engineer
-
-          • Compliance / RMF Analyst
-
-          Flexible weekly or monthly capacity; predictable engagement models.
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pb-8, pl-8 md:pl-10, pr-8 md:pr-10]
-            borderRadius: x-large
-    colors: bg-white-fg-dark
-    styles:
-      self:
-        padding: [pt-20, pb-20, pl-6 md:pl-20, pr-6 md:pr-20]
-
+                • NIST 800-53, FedRAMP, and Zero Trust policy alignment and controls mapping
+          
+                • Cloud security reviews and evidence collection for AWS and Azure government workloads
+          
+                • Detection engineering (cloud, identity, endpoint) aligned to federal use cases
+              colors: bg-neutralAlt-fg-dark
+              styles:
+                self:
+                  padding:
+                    - pt-10
+                    - pl-8 md:pl-10
+                    - pb-10
+                    - pr-8 md:pr-10
+                  borderRadius: x-large
+            - type: FeaturedItem
+              title: On-Demand Engineering
+              subtitle: Federal staffing & augmentation for programs
+              text: >-
+                We provide cleared and experienced engineers to augment government programs and contractor teams on flexible weekly or monthly terms.
+                Typical engagements include:
+          
+                • SIEM / Splunk / Elastic engineers to manage and tune detection pipelines
+          
+                • RMF / compliance analysts for SSP, assessment, and POA&M support
+          
+                • Cloud security engineers experienced with AWS GovCloud and Azure Government
+          
+                • Automation & SOAR engineers to reduce manual triage and improve incident response
+              colors: bg-neutralAlt-fg-dark
+              styles:
+                self:
+                  padding:
+                    - pt-10
+                    - pl-8 md:pl-10
+                    - pb-10
+                    - pr-8 md:pr-10
+                  borderRadius: x-large
+          colors: bg-neutral-fg-dark
+          styles:
+            self:
+              padding:
+                - pt-24
+                - pb-24
+                - pl-6 md:pl-20
+                - pr-6 md:pr-20
   # HOW WE WORK
   - type: FeaturedItemsSection
     title:

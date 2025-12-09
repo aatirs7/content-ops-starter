@@ -19,9 +19,9 @@
       "type": "Link"
     },
     {
-      "label": "Work",
+      "label": "Contracts",
       "altText": "Previous work and case studies",
-      "url": "/work",
+      "url": "/contracts",
       "style": "secondary",
       "type": "Link"
     },
