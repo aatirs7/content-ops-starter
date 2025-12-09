@@ -249,7 +249,7 @@ sections:
         self:
           textAlign: center
     text: >-
-      Elysium Cyber is a boutique security engineering firm under Elysium Ventures LLC. We specialize in detection engineering, SIEM pipelines, SOAR automation, cloud security, and compliance documentation. We partner with internal security teams to deliver outcomes, build capabilities, and strengthen security maturity.
+      Elysium Cyber is a boutique security engineering firm. We specialize in detection engineering, SIEM pipelines, SOAR automation, cloud security, and compliance documentation. We partner with internal security teams to deliver outcomes, build capabilities, and strengthen security maturity.
     colors: bg-light-fg-dark
     styles:
       self:
