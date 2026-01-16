@@ -42,3 +42,11 @@ yarn-error.log*
 .idea
 
 tmp*
+
+# Claude Code
+.claude/
+
+# Exports and backups
+export/
+export.zip
+bare-minimum/
