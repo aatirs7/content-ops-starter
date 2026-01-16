@@ -2,76 +2,370 @@
 title: Internship Program
 slug: /internship
 sections:
+  # Hero Section
   - type: GenericSection
     title:
-      text: Real Cybersecurity Work. On Your Resume.
+      text: Cybersecurity Internship Program
       color: text-dark
       type: TitleBlock
-    subtitle: Build resume-ready skills with mentorship and real experience.
+    subtitle: Build real-world experience with mentorship from industry professionals.
     text: >
-      Build real cybersecurity projects, receive mentorship from experienced engineers, and gain the credentials to advance your career.
+      Our internship program provides hands-on cybersecurity experience through real projects,
+      professional mentorship, and skills that translate directly to your career.
     actions:
       - label: Apply Now
-        altText: 'Apply for the internship program'
+        altText: Apply for the internship program
         url: https://calendly.com/elysiumventuresgroup/30min
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: Learn More
-        altText: ''
-        url: '#program-details'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
+        type: Button
+      - label: Learn More
+        altText: View program details
+        url: '#program-overview'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Get Hands-On Cybersecurity Work You Can Actually Put on Your Resume
+      altText: Elysium Cyber Internship Program
       elementId: ''
       type: ImageBlock
     badge:
-      label: Elysium Cyber™
+      label: Elysium Cyber
       color: text-primary
       type: Badge
-    elementId: ''
+    elementId: hero
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         flexDirection: col md:row
         padding:
+          - pt-20
+          - pl-6 md:pl-16
+          - pb-20
+          - pr-6 md:pr-16
+
+  # Program Overview Section
+  - type: GenericSection
+    title:
+      text: Program Overview
+      color: text-dark
+      type: TitleBlock
+      styles:
+        self:
+          textAlign: left
+    subtitle: ''
+    text: >
+      The Elysium Cyber Internship Program is a structured experience designed for individuals
+      looking to enter or advance in the cybersecurity field.
+
+
+      **What You Receive:**
+
+      - Hands-on project work with real security tools and environments
+
+      - One-on-one mentorship from experienced security engineers
+
+      - Portfolio-ready deliverables to showcase in interviews
+
+      - Professional reference upon successful completion
+
+      - Flexible scheduling that works around your commitments
+    actions: []
+    elementId: program-overview
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        alignItems: flex-start
+        flexDirection: col
+        padding:
           - pt-16
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
 
+  # What Interns Work On
+  - type: FeaturedItemsSection
+    title:
+      text: What You'll Work On
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Choose a focus area that aligns with your career goals.
+    items:
+      - type: FeaturedItem
+        title: Cloud Security
+        subtitle: AWS Security Fundamentals
+        text: >-
+          Configure and secure cloud environments using AWS. Work with S3 bucket policies,
+          IAM roles and permissions, security groups, and learn to identify common misconfigurations
+          that lead to breaches.
+        actions: []
+        elementId: ''
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-6 md:pl-8
+              - pb-8
+              - pr-6 md:pr-8
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Cloud Security icon
+          elementId: ''
+          url: /images/icon1.svg
+          styles:
+            self:
+              borderRadius: large
+      - type: FeaturedItem
+        title: Security Scripting
+        subtitle: Python & Bash Automation
+        text: >-
+          Build scripts to automate security operations. Parse log files, detect anomalies,
+          automate vulnerability scanning, and create tools that security teams actually use
+          in production environments.
+        actions: []
+        elementId: ''
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-6 md:pl-8
+              - pb-8
+              - pr-6 md:pr-8
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Security Scripting icon
+          elementId: ''
+          url: /images/icon2.svg
+          styles:
+            self:
+              borderRadius: large
+      - type: FeaturedItem
+        title: Compliance & Risk
+        subtitle: Security Frameworks
+        text: >-
+          Apply industry frameworks including NIST, CIS Controls, and SOC 2 requirements.
+          Learn how compliance works in practice and gain experience that GRC roles
+          specifically look for.
+        actions: []
+        elementId: ''
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-6 md:pl-8
+              - pb-8
+              - pr-6 md:pr-8
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Compliance & Risk icon
+          elementId: ''
+          url: /images/icon3.svg
+          styles:
+            self:
+              borderRadius: large
+    actions: []
+    elementId: focus-areas
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-16
+          - pt-16
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
+
+  # Who Should Apply
   - type: GenericSection
     title:
-      text: Not sure where to start?
+      text: Who Should Apply
       color: text-dark
       type: TitleBlock
       styles:
         self:
+          textAlign: left
+    subtitle: ''
+    text: >
+      **This program is designed for:**
+
+      - Students pursuing degrees in cybersecurity, IT, or computer science
+
+      - Career changers transitioning into security from other technical fields
+
+      - IT professionals looking to specialize in security
+
+      - Recent graduates building their first professional experience
+
+
+      **What we look for:**
+
+      - Genuine interest in cybersecurity and willingness to learn
+
+      - Basic familiarity with computers and networking concepts
+
+      - Ability to commit dedicated time to the program
+
+      - Professional communication skills
+    actions: []
+    elementId: who-should-apply
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        alignItems: flex-start
+        flexDirection: col
+        padding:
+          - pt-16
+          - pl-6 md:pl-16
+          - pb-16
+          - pr-6 md:pr-16
+
+  # FAQ Section
+  - type: FeaturedItemsSection
+    title:
+      text: Frequently Asked Questions
+      color: text-dark
+      styles:
+        self:
           textAlign: center
-    subtitle: Talk to an engineer. Plan your path.
+      type: TitleBlock
+    subtitle: ''
+    items:
+      - type: FeaturedItem
+        title: How long is the internship program?
+        text: >-
+          The program duration is flexible and tailored to your goals and availability.
+          Most participants complete within 8-12 weeks while balancing other commitments.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Is this a remote or in-person program?
+        text: >-
+          The program is fully remote. You'll work on projects and meet with your mentor
+          virtually, allowing you to participate from anywhere.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: medium
+      - type: FeaturedItem
+        title: What kind of projects will I work on?
+        text: >-
+          Projects are based on real-world scenarios that security teams encounter.
+          Depending on your focus area, you might secure cloud infrastructure, build
+          automation scripts, or conduct compliance assessments.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Will I receive a reference or recommendation?
+        text: >-
+          Yes. Participants who successfully complete the program receive a professional
+          reference that can be used for job applications and LinkedIn recommendations.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Do I need prior cybersecurity experience?
+        text: >-
+          No prior security experience is required. We look for motivation, basic technical
+          aptitude, and willingness to learn. The program is designed to build your skills
+          from the ground up.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: medium
+    actions: []
+    elementId: faq
+    variant: toggle-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-16
+          - pt-16
+          - pl-6 md:pl-16
+          - pr-6 md:pr-16
+        justifyContent: center
+
+  # Application CTA Section
+  - type: GenericSection
+    title:
+      text: Ready to Start?
+      color: text-light
+      type: TitleBlock
+      styles:
+        self:
+          textAlign: center
+    subtitle: Schedule a call to discuss the program and your goals.
     actions:
-      - label: Book My Free Call
+      - label: Book a Call
         url: https://calendly.com/elysiumventuresgroup/30min
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Button
-        className: hover:bg-black hover:text-white
-        styles:
-          self:
-            justifyContent: center
-    colors: bg-gray-50 text-dark
+    elementId: apply
+    colors: bg-dark-fg-light
     styles:
       subtitle:
         textAlign: center
@@ -84,132 +378,14 @@ sections:
         alignItems: center
         textAlign: center
         padding:
-          - pt-14
-          - pb-14
-          - pl-6 md:pl-16
-          - pr-6 md:pr-16
-        maxWidth:
-          - max-w-screen-md
-        margin:
-          - mx-auto
-
-  - type: FeaturedItemsSection
-    title:
-      text: Credible. Listable. Valuable.
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-        type: TitleBlock
-    subtitle: Designed to be listed as an internship or full-time role—depending on where you are in your career.
-    items:
-      - type: FeaturedItem
-        title: Cloud Security
-        subtitle: Get Job-Ready Cloud Skills
-        text: >-
-          Gain hands-on experience with AWS by securing S3 buckets, managing IAM roles, and spotting misconfigurations.
-          Learn the exact skills companies look for in entry-level cloud security roles.
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-6 md:pl-8
-              - pb-8
-              - pr-6 md:pr-8
-            borderRadius: x-large
-            flexDirection: col md:row
-            justifyContent: center
-            textAlign: left
-        image:
-          type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
-          url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - title: Security Scripting
-        subtitle: Security Automation Basics
-        text: >-
-          Build real scripts to automate security tasks using Python and Bash. Learn how to parse logs, flag suspicious activity,
-          and save hours on repetitive work—skills that make your resume stand out.
-        image:
-          url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-6 md:pl-8
-              - pb-8
-              - pr-6 md:pr-8
-            borderRadius: x-large
-            flexDirection: col md:row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: Compliance & Risk
-        subtitle: Learn Security Standards that Land Jobs
-        text: >-
-          Get hands-on with real frameworks like NIST, CIS, and SOC 2. Understand what compliance means in practice and how it fits into the daily work of cybersecurity teams.
-        image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-6 md:pl-8
-              - pb-8
-              - pr-6 md:pr-8
-            borderRadius: x-large
-            flexDirection: col md:row
-        type: FeaturedItem
-    actions:
-      - label: Apply Now
-        altText: 'Apply for the internship program'
-        url: https://calendly.com/elysiumventuresgroup/30min
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: Resume-Ready
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-        type: Badge
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pb-16
           - pt-16
+          - pb-16
           - pl-6 md:pl-16
           - pr-6 md:pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
 
 seo:
-  metaTitle: Elysium Cyber - Internship Program
-  metaDescription: Join our hands-on cybersecurity internship. Build real projects, get mentored, and launch your career.
+  metaTitle: Cybersecurity Internship Program | Elysium Cyber
+  metaDescription: Build real-world cybersecurity experience through hands-on projects and professional mentorship. Apply to the Elysium Cyber Internship Program.
   socialImage: /images/main-hero.jpg
   type: Seo
 
