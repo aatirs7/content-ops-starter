@@ -6,28 +6,12 @@
     },
     "text": "The bridge between ambition and opportunity.",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Programs",
         "links": [
             {
-                "label": "How it Works",
-                "altText": "How it Works Page",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Pricing",
-                "url": "/pricing",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Documentation",
-                "url": "/",
+                "label": "Internship Program",
+                "altText": "Internship Program",
+                "url": "/internship",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

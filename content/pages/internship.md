@@ -9,20 +9,20 @@ sections:
       type: TitleBlock
     subtitle: Build resume-ready skills with mentorship and real experience.
     text: >
-      This isn't a course. It's an internship — designed for you. Build real cybersecurity projects, get mentored by an engineer, and list "Cybersecurity Intern" on your resume with confidence.
+      Build real cybersecurity projects, receive mentorship from experienced engineers, and gain the credentials to advance your career.
     actions:
-      - label: Get Started
-        altText: ''
-        url: /internship
-        showIcon: false
+      - label: Apply Now
+        altText: 'Apply for the internship program'
+        url: https://calendly.com/elysiumventuresgroup/30min
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
         elementId: ''
         type: Button
-      - label: How it Works
+      - label: Learn More
         altText: ''
-        url: /works
+        url: '#program-details'
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -177,10 +177,10 @@ sections:
             flexDirection: col md:row
         type: FeaturedItem
     actions:
-      - label: Get started
-        altText: ''
-        url: /internship
-        showIcon: false
+      - label: Apply Now
+        altText: 'Apply for the internship program'
+        url: https://calendly.com/elysiumventuresgroup/30min
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
