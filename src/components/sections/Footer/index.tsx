@@ -31,7 +31,7 @@ export default function Footer(props) {
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-screen-2xl">
                 <div className="grid sm:grid-cols-3 lg:grid-cols-4 gap-8">
                     {(logo?.url || title || text) && (
                         <div className="pb-8 sm:col-span-3 lg:col-auto">
