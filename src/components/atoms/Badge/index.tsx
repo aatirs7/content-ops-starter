@@ -4,9 +4,9 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 
 export default function Badge(props) {
-    const { label, color = 'text-primary', styles, className } = props;
+    const { label, url, color = 'text-primary', styles, className } = props;
     const fieldPath = props['data-sb-field-path'];
-    if (!label) {
+    if (!label && !url) {
         return null;
     }
 
@@ -22,9 +22,13 @@ export default function Badge(props) {
             )}
             data-sb-field-path={fieldPath}
         >
-            <span className="tracking-wider uppercase" {...(fieldPath && { 'data-sb-field-path': '.label' })}>
-                {label}
-            </span>
+            {url ? (
+                <img src={url} alt={label || 'Badge'} className="h-6" {...(fieldPath && { 'data-sb-field-path': '.url' })} />
+            ) : (
+                <span className="tracking-wider uppercase" {...(fieldPath && { 'data-sb-field-path': '.label' })}>
+                    {label}
+                </span>
+            )}
         </div>
     );
 }

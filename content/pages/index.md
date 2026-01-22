@@ -9,8 +9,8 @@ sections:
       color: text-dark
       type: TitleBlock
     badge:
-      label: ELYSIUM CYBER
-      color: text-muted
+      url: /images/elysium-cyber-badge.svg
+      label: Elysium Cyber
       type: Badge
     subtitle: We're a boutique security firm that helps organizations strengthen detections, automate response, and add engineering capacity without full-time hires.
     text: >-
