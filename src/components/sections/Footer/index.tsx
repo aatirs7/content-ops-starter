@@ -108,9 +108,9 @@ function FooterLinksGroup(props) {
     return (
         <div className="pb-8" data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className="uppercase text-base tracking-wide" {...(fieldPath && { 'data-sb-field-path': '.title' })}>
+                <h3 className="uppercase text-base tracking-wide font-semibold" {...(fieldPath && { 'data-sb-field-path': '.title' })}>
                     {title}
-                </h2>
+                </h3>
             )}
             {links.length > 0 && (
                 <ul className={classNames('space-y-3', { 'mt-7': title })} {...(fieldPath && { 'data-sb-field-path': '.links' })}>

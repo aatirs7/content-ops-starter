@@ -7,7 +7,19 @@
 @layer base {
     body {
         @apply text-base;
+        -webkit-tap-highlight-color: transparent;
     }
+
+    /* Prevent double-tap zoom delay on touch devices */
+    a,
+    button,
+    input,
+    select,
+    textarea,
+    [role="button"] {
+        touch-action: manipulation;
+    }
+
     h1,
     .h1,
     h2,
@@ -20,6 +32,7 @@
     h6 {
         @apply break-words;
         line-height: 1.2;
+        text-wrap: balance;
     }
 }
 
@@ -125,7 +138,8 @@
 
     /* Buttons */
     .sb-component-button {
-        @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
+        @apply inline-flex justify-center items-center text-center border duration-200 ease-in hover:-translate-y-1 hover:shadow-md active:translate-y-0 active:shadow-none;
+        transition-property: transform, box-shadow, background-color, border-color;
     }
 
     /* Links */

@@ -6,19 +6,49 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 export default function FormBlock(props) {
-    const formRef = React.createRef<HTMLFormElement>();
+    const formRef = React.useRef<HTMLFormElement>(null);
+    const [status, setStatus] = React.useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
 
     if (fields.length === 0) {
         return null;
     }
 
-    function handleSubmit(event) {
+    async function handleSubmit(event: React.FormEvent) {
         event.preventDefault();
+        setStatus('submitting');
 
-        const data = new FormData(formRef.current);
-        const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
+        try {
+            const data = new FormData(formRef.current!);
+            // Simulate form submission - replace with actual API call
+            await new Promise(resolve => setTimeout(resolve, 500));
+            setStatus('success');
+            formRef.current?.reset();
+        } catch (error) {
+            setStatus('error');
+        }
+    }
+
+    if (status === 'success') {
+        return (
+            <div
+                className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
+                role="status"
+                aria-live="polite"
+            >
+                <div className="text-center py-8">
+                    <p className="text-lg font-medium text-primary">Thank you for your submission!</p>
+                    <p className="mt-2 text-sm opacity-75">We'll be in touch soon.</p>
+                    <button
+                        type="button"
+                        onClick={() => setStatus('idle')}
+                        className="mt-4 text-sm underline hover:no-underline"
+                    >
+                        Submit another response
+                    </button>
+                </div>
+            </div>
+        );
     }
 
     return (
@@ -64,8 +94,17 @@ export default function FormBlock(props) {
             </div>
             {submitButton && (
                 <div className={classNames('mt-8', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}>
-                    <SubmitButtonFormControl {...submitButton} {...(fieldPath && { 'data-sb-field-path': '.submitButton' })} />
+                    <SubmitButtonFormControl
+                        {...submitButton}
+                        isSubmitting={status === 'submitting'}
+                        {...(fieldPath && { 'data-sb-field-path': '.submitButton' })}
+                    />
                 </div>
+            )}
+            {status === 'error' && (
+                <p className="mt-4 text-sm text-red-600" role="alert">
+                    Something went wrong. Please try again.
+                </p>
             )}
         </form>
     );
