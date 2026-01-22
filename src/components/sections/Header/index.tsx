@@ -26,7 +26,7 @@ export default function Header(props) {
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
-            <div className="mx-auto max-w-screen-2xl">
+            <div className="mx-auto max-w-[1800px]">
                 <Link href="#main" className="sr-only">
                     Skip to main content
                 </Link>
