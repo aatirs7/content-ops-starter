@@ -49,6 +49,15 @@
         h4, .h4 {
             font-size: 1.25rem; /* 20px instead of 24px */
         }
+
+        /* Hero/generic section images - full width and centered on mobile */
+        .sb-component-generic-section .sb-component-image-block {
+            width: 100%;
+        }
+        .sb-component-generic-section .sb-component-image-block img {
+            width: 100%;
+            height: auto;
+        }
     }
 
     /* Tabular numbers for proper alignment in tables and data */

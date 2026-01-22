@@ -103,13 +103,13 @@ export default function GenericSection(props) {
                 )}
                 {hasMedia && (
                     <div
-                        className={classNames('w-full', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
+                        className={classNames('w-full', 'flex', 'justify-center', hasXDirection ? 'lg:justify-start' : mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
                             'max-w-sectionBody': media.__metadata.modelName === 'FormBlock',
                             'lg:w-[57.5%] lg:shrink-0': hasTextContent && hasXDirection,
                             'lg:mt-10': badge?.label && media.__metadata.modelName === 'FormBlock' && hasXDirection
                         })}
                     >
-                        <Media media={media} hasAnnotations={enableAnnotations} />
+                        <Media media={media} hasAnnotations={enableAnnotations} className={hasXDirection ? 'w-full max-w-md lg:max-w-none' : undefined} />
                     </div>
                 )}
             </div>
@@ -117,7 +117,7 @@ export default function GenericSection(props) {
     );
 }
 
-function Media({ media, hasAnnotations }: { media: any; hasAnnotations: boolean }) {
+function Media({ media, hasAnnotations, className }: { media: any; hasAnnotations: boolean; className?: string }) {
     const modelName = media.__metadata.modelName;
     if (!modelName) {
         throw new Error(`generic section media does not have the 'modelName' property`);
@@ -126,7 +126,7 @@ function Media({ media, hasAnnotations }: { media: any; hasAnnotations: boolean 
     if (!MediaComponent) {
         throw new Error(`no component matching the hero section media model name: ${modelName}`);
     }
-    return <MediaComponent {...media} {...(hasAnnotations && { 'data-sb-field-path': '.media' })} />;
+    return <MediaComponent {...media} className={className} {...(hasAnnotations && { 'data-sb-field-path': '.media' })} />;
 }
 
 function mapFlexDirectionStyles(flexDirection: string, hasTextContent: boolean, hasMedia: boolean) {

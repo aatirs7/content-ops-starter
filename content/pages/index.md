@@ -32,13 +32,12 @@ sections:
     styles:
       self:
         alignItems: center
-        flexDirection: col md:row
+        flexDirection: row
         padding:
           - pt-16
           - pl-6 md:pl-14
           - pb-16
           - pr-6 md:pr-14
-        justifyContent: center
 
   # WHAT WE DO
   - type: FeaturedItemsSection
