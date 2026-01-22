@@ -1,4 +1,63 @@
-<svg width="42" height="21" viewBox="0 0 42 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="21" width="21" height="21" rx="10.5" fill="#4A4A4A"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21 4.77273C21 2.13682 18.8632 0 16.2273 0H10.5C4.70101 0 0 4.70101 0 10.5V16.2273C0 18.8632 2.13682 21 4.77273 21V21C7.40863 21 9.54545 18.8632 9.54545 16.2273V15.2727C9.54545 12.1096 12.1096 9.54545 15.2727 9.54545H16.2273C18.8632 9.54545 21 7.40863 21 4.77273V4.77273Z" fill="#4A4A4A"/>
+<!-- Full logo E brackets — WHITE background -->
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff"/>
+  
+  <!-- ULTRA-CLOSE E BRACKETS -->
+  <g transform="translate(100 167)">
+    <!-- LEFT E -->
+    <g transform="translate(15 0) scale(0.75)">
+      <g transform="translate(-14 -38) scale(0.55)">
+        <defs>
+          <mask id="mTop_left_fw">
+            <rect x="0" y="0" width="50" height="50" fill="white"/>
+            <circle cx="50" cy="50" r="30" fill="black"/>
+          </mask>
+        </defs>
+        <rect x="0" y="0" width="50" height="50" fill="#000" mask="url(#mTop_left_fw)"/>
+        <polygon points="5,66 15,60 25,60 35,66 25,72 15,72" fill="#000"/>
+        <defs>
+          <mask id="mBot_left_fw">
+            <rect x="0" y="0" width="50" height="50" fill="white"/>
+            <circle cx="50" cy="50" r="30" fill="black"/>
+          </mask>
+        </defs>
+        <g transform="translate(0 82) scale(1 -1) translate(0 -50)">
+          <rect x="0" y="0" width="50" height="50" fill="#000" mask="url(#mBot_left_fw)"/>
+        </g>
+      </g>
+    </g>
+    
+    <!-- RIGHT E (mirrored) -->
+    <g transform="translate(45 0) scale(-0.75, 0.75)">
+      <g transform="translate(-14 -38) scale(0.55)">
+        <defs>
+          <mask id="mTop_right_fw">
+            <rect x="0" y="0" width="50" height="50" fill="white"/>
+            <circle cx="50" cy="50" r="30" fill="black"/>
+          </mask>
+        </defs>
+        <rect x="0" y="0" width="50" height="50" fill="#000" mask="url(#mTop_right_fw)"/>
+        <polygon points="5,66 15,60 25,60 35,66 25,72 15,72" fill="#000"/>
+        <defs>
+          <mask id="mBot_right_fw">
+            <rect x="0" y="0" width="50" height="50" fill="white"/>
+            <circle cx="50" cy="50" r="30" fill="black"/>
+          </mask>
+        </defs>
+        <g transform="translate(0 82) scale(1 -1) translate(0 -50)">
+          <rect x="0" y="0" width="50" height="50" fill="#000" mask="url(#mBot_right_fw)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- WORDMARK -->
+  <text x="220" y="190"
+        style="font-family:Inter, Helvetica, Arial, sans-serif;
+               font-weight:500;
+               font-size:64px;
+               letter-spacing:.32em;
+               fill:#000;">
+    ELYSIUM CYBER
+  </text>
 </svg>
