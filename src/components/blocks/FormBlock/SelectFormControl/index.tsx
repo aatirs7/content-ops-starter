@@ -47,7 +47,10 @@ export default function SelectFormControl(props) {
                         'w-full',
                         'py-2',
                         'pr-7',
-                        'focus:outline-none'
+                        'focus:outline-none',
+                        'focus-visible:ring-2',
+                        'focus-visible:ring-primary',
+                        'focus-visible:border-primary'
                     )}
                     name={name}
                     {...attr}

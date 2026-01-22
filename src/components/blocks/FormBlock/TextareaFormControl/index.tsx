@@ -35,7 +35,7 @@ export default function TextareaFormControl(props) {
             )}
             <textarea
                 id={props.name}
-                className="sb-textarea text-inherit bg-transparent border border-current w-full p-2 focus:outline-none"
+                className="sb-textarea text-inherit bg-transparent border border-current w-full p-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:border-primary"
                 name={name}
                 rows={5}
                 {...attr}

@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 
 export default function ImageBlock(props) {
-    const { elementId, className, imageClassName, url, altText = '', styles = {} } = props;
+    const { elementId, className, imageClassName, url, altText = '', width, height, loading = 'lazy', styles = {} } = props;
     if (!url) {
         return null;
     }
@@ -40,6 +40,9 @@ export default function ImageBlock(props) {
                 )}
                 src={url}
                 alt={altText}
+                width={width}
+                height={height}
+                loading={loading}
             />
         </div>
     );

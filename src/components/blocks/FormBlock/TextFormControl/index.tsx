@@ -35,7 +35,7 @@ export default function TextFormControl(props) {
             )}
             <input
                 id={name}
-                className="sb-input text-inherit bg-transparent border-b border-current w-full py-2 focus:outline-none"
+                className="sb-input text-inherit bg-transparent border-b border-current w-full py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:border-primary"
                 type="text"
                 name={name}
                 {...attr}

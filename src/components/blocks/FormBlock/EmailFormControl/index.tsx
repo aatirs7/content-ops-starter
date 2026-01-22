@@ -35,9 +35,11 @@ export default function EmailFormControl(props) {
             )}
             <input
                 id={name}
-                className="sb-input text-inherit bg-transparent border-b border-current w-full py-2 focus:outline-none"
+                className="sb-input text-inherit bg-transparent border-b border-current w-full py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:border-primary"
                 type="email"
                 name={name}
+                autoComplete="email"
+                spellCheck={false}
                 {...attr}
                 {...(fieldPath && { 'data-sb-field-path': '.name#@id .name#@name' })}
             />
