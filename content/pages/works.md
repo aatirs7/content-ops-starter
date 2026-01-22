@@ -15,13 +15,13 @@ sections:
 
       This isn’t a course. It’s actual experience.
     badge:
-      label: Elysium Cyber™
-      color: text-primary
+      url: /images/elysium-cyber-badge.svg
+      label: Elysium Cyber
       type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
-        flexDirection: col md:row
+        flexDirection: col
         alignItems: center
         padding:
           - pt-20

@@ -68,6 +68,14 @@
 }
 
 @layer components {
+    /* Badge centering */
+    .sb-component-badge {
+        @apply flex justify-center w-full;
+    }
+    .sb-component-badge img {
+        @apply h-5 sm:h-6;
+    }
+
     .sb-markdown {
         @apply leading-relaxed;
         a {

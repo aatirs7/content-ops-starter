@@ -37,15 +37,15 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
+      url: /images/elysium-cyber-badge.svg
       label: Elysium Cyber
-      color: text-primary
       type: Badge
     elementId: hero
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
-        flexDirection: col md:row
+        flexDirection: row
         padding:
           - pt-20
           - pl-6 md:pl-16
