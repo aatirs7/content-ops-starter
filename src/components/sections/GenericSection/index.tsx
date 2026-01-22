@@ -36,7 +36,8 @@ export default function GenericSection(props) {
                     /* handle vertical positioning of content on large screens if it's a two col layout */
                     hasMedia && hasTextContent && hasXDirection ? mapAlignItemsStyles(alignItems) : undefined,
                     'gap-x-12',
-                    'gap-y-16'
+                    'gap-y-8',
+                    'sm:gap-y-16'
                 )}
             >
                 {hasTextContent && (
@@ -83,7 +84,7 @@ export default function GenericSection(props) {
                                     'items-center',
                                     'gap-4',
                                     {
-                                        'mt-8': badge?.label || title?.text || subtitle || text
+                                        'mt-6 sm:mt-8': badge?.label || title?.text || subtitle || text
                                     }
                                 )}
                                 {...(enableAnnotations && { 'data-sb-field-path': '.actions' })}

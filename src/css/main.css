@@ -35,6 +35,22 @@
         text-wrap: balance;
     }
 
+    /* Mobile-optimized heading sizes - scales down for smaller screens */
+    @media (max-width: 639px) {
+        h1, .h1 {
+            font-size: 2.25rem; /* 36px instead of 60px */
+        }
+        h2, .h2 {
+            font-size: 1.875rem; /* 30px instead of 48px */
+        }
+        h3, .h3 {
+            font-size: 1.5rem; /* 24px instead of 30px */
+        }
+        h4, .h4 {
+            font-size: 1.25rem; /* 20px instead of 24px */
+        }
+    }
+
     /* Tabular numbers for proper alignment in tables and data */
     table,
     .tabular-nums {
