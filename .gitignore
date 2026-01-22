@@ -43,10 +43,19 @@ yarn-error.log*
 
 tmp*
 
-# Claude Code
+# AI Tools
 .claude/
+.agent/
+.agents/
+.codex/
+.gemini/
+.opencode/
 
 # Exports and backups
 export/
 export.zip
 bare-minimum/
+
+# Scratch files
+*.scratch.*
+[elysium cyber].html
