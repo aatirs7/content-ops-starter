@@ -2,7 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 
 export default function TextFormControl(props) {
-    const { name, label, hideLabel, isRequired, placeholder, width = 'full' } = props;
+    const { name, label, hideLabel, isRequired, placeholder, width = 'full', autoComplete } = props;
     const fieldPath = props['data-sb-field-path'];
     const labelId = `${name}-label`;
     const attr: React.InputHTMLAttributes<HTMLInputElement> = {};
@@ -38,6 +38,7 @@ export default function TextFormControl(props) {
                 className="sb-input text-inherit bg-transparent border-b border-current w-full py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:border-primary"
                 type="text"
                 name={name}
+                autoComplete={autoComplete || name}
                 {...attr}
                 {...(fieldPath && { 'data-sb-field-path': '.name#@id .name#@name' })}
             />

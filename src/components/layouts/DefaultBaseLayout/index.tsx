@@ -12,7 +12,9 @@ export default function DefaultBaseLayout(props) {
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
             <div className="sb-base sb-default-base-layout bg-neutral">
                 {site.header && <Header {...site.header} enableAnnotations={enableAnnotations} />}
-                {props.children}
+                <main id="main">
+                    {props.children}
+                </main>
                 {site.footer && <Footer {...site.footer} enableAnnotations={enableAnnotations} />}
             </div>
         </div>
