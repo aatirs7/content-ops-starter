@@ -138,17 +138,11 @@
 
     /* Buttons */
     .sb-component-button {
-        @apply inline-flex justify-center items-center text-center border duration-200 ease-in hover:-translate-y-1 active:translate-y-0;
-        transition-property: transform, box-shadow, background-color, border-color;
+        @apply inline-flex justify-center items-center text-center border duration-200 ease-in;
+        transition-property: background-color, border-color, opacity;
     }
-    .sb-component-button-primary:hover {
-        box-shadow: 0 4px 14px 0 rgba(42, 42, 42, 0.4);
-    }
-    .sb-component-button-secondary:hover {
-        box-shadow: 0 4px 14px 0 rgba(42, 42, 42, 0.2);
-    }
-    .sb-component-button:active {
-        box-shadow: none;
+    .sb-component-button:hover {
+        @apply opacity-90;
     }
 
     /* Links */
