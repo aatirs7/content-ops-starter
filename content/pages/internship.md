@@ -94,6 +94,7 @@ sections:
       self:
         alignItems: center
         flexDirection: col
+        justifyContent: center
         padding:
           - pt-16
           - pl-6 md:pl-16
