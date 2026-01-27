@@ -221,7 +221,7 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textAlign: left
+          textAlign: center
     subtitle: ''
     text: >
       **This program is designed for:**
@@ -249,13 +249,16 @@ sections:
     colors: bg-neutral-fg-dark
     styles:
       self:
-        alignItems: flex-start
+        alignItems: center
         flexDirection: col
+        justifyContent: center
         padding:
           - pt-16
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
+      text:
+        textAlign: center
 
   # FAQ Section
   - type: FeaturedItemsSection
