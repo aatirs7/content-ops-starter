@@ -8,6 +8,9 @@ sections:
       text: Cybersecurity Internship Program
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textAlign: center
     subtitle: Build real-world experience with mentorship from industry professionals.
     text: >
       Our internship program provides hands-on cybersecurity experience through real projects,
@@ -51,6 +54,12 @@ sections:
           - pl-6 md:pl-16
           - pb-20
           - pr-6 md:pr-16
+      text:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
 
   # Program Overview Section
   - type: GenericSection
@@ -60,7 +69,7 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textAlign: left
+          textAlign: center
     subtitle: ''
     text: >
       The Elysium Cyber Internship Program is a structured experience designed for individuals
@@ -83,13 +92,15 @@ sections:
     colors: bg-neutral-fg-dark
     styles:
       self:
-        alignItems: flex-start
+        alignItems: center
         flexDirection: col
         padding:
           - pt-16
           - pl-6 md:pl-16
           - pb-16
           - pr-6 md:pr-16
+      text:
+        textAlign: center
 
   # What Interns Work On
   - type: FeaturedItemsSection
